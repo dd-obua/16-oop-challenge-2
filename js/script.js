@@ -32,3 +32,5 @@ console.log(ford.speedUS);
 ford.accelerate();
 ford.accelerate();
 ford.break();
+ford.speedUS = 50;
+console.log(ford);
