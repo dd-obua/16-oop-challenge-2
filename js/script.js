@@ -24,22 +24,3 @@ class CarCl {
     return this.speed * 1.6;
   }
 }
-
-const bmw = new CarCl('BMW', 120);
-const marcedes = new CarCl('Marcedes', 95);
-
-bmw.accelerate();
-bmw.accelerate();
-bmw.accelerate();
-bmw.break();
-bmw.break();
-bmw.break();
-console.log();
-
-marcedes.accelerate();
-marcedes.accelerate();
-marcedes.accelerate();
-marcedes.break();
-marcedes.break();
-marcedes.break();
-console.log();
