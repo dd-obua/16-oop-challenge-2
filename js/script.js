@@ -16,3 +16,6 @@ class CarCl {
     console.log(this.speed);
   }
 }
+
+const bmw = new CarCl('BMW', 120);
+const marcedes = new CarCl('Marcedes', 95);
