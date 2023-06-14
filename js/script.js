@@ -26,3 +26,6 @@ class CarCl {
 }
 
 const ford = new CarCl('Ford', 120);
+
+ford.accelerate();
+ford.break();
