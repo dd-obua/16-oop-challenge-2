@@ -19,3 +19,11 @@ class CarCl {
 
 const bmw = new CarCl('BMW', 120);
 const marcedes = new CarCl('Marcedes', 95);
+
+bmw.accelerate();
+bmw.accelerate();
+bmw.accelerate();
+bmw.break();
+bmw.break();
+bmw.break();
+console.log();
