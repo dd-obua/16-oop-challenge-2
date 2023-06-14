@@ -8,12 +8,12 @@ class CarCl {
 
   accelerate() {
     this.speed += 10;
-    console.log(this.speed);
+    console.log(`${this.make} is going at ${this.speed} km/h`);
   }
 
   break() {
     this.speed -= 5;
-    console.log(this.speed);
+    console.log(`${this.make} is going at ${this.speed} km/h`);
   }
 
   get speedUS() {
@@ -26,6 +26,3 @@ class CarCl {
 }
 
 const ford = new CarCl('Ford', 120);
-
-ford.accelerate();
-ford.break();
