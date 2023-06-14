@@ -27,3 +27,11 @@ bmw.break();
 bmw.break();
 bmw.break();
 console.log();
+
+marcedes.accelerate();
+marcedes.accelerate();
+marcedes.accelerate();
+marcedes.break();
+marcedes.break();
+marcedes.break();
+console.log();
